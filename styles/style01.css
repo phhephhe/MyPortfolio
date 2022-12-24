@@ -44,7 +44,6 @@
 .fullname{
     padding: 30px 0px;
     letter-spacing: 0.1em;
-
     color: #4F4F4F;
     font-size: 25px;
 }
@@ -53,10 +52,11 @@
     font-weight: 700;
     letter-spacing: 0.2em;
 }
-/* .welcomeImg{
-    padding-top: 30px;
-    display: block;
-} */
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .developer{
     font-size: 20px;
     text-align: right;

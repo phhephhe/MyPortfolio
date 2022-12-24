@@ -1,0 +1,151 @@
+/*  1700x1080 */
+@media only screen and (max-width: 1700px){
+    .Myportfolio{
+        font-size: 172px;
+        letter-spacing: 0.17em;   
+        padding: 20px 0px;    
+
+    }
+    .mainContainer{
+        padding-left: 90px;
+    }
+    .year {
+        padding-top: 24px;
+        font-size: 38px;
+    }
+    .line01{
+        height: 230px;
+    }
+    .line02{
+        height: 180px;
+    }
+    .line03{
+        height: 70px;
+    }
+    .line04 {
+        height: 180px;
+        margin: 50px 0px;
+    }
+    .fullname{
+        padding: 24px 0px;
+        font-size: 22px;
+    }
+    .surname{
+        font-size: 44px;
+    }
+    .developer{
+        font-size: 18px;
+    }
+}
+/* 1440x900 */
+@media only screen and (max-width: 1440px){
+    .mainContainer{
+        padding-left: 85px;
+    }
+    .year {
+        padding-top: 24px;
+        font-size: 38px;
+    }
+    .Myportfolio{
+        font-size: 158px;
+        letter-spacing: 0.15em;  
+        padding: 18px 0px;    
+    }
+    .line01{
+        height: 220px;
+    }
+    .line02{
+        height: 170px;
+    }
+    .line03{
+        height: 60px;
+    }
+    .line04 {
+        height: 170px;
+        margin: 50px 0px;
+    }
+    .fullname{
+        padding: 24px 0px;
+        font-size: 20px;
+    }
+    .surname{
+        font-size: 40px;
+    }
+    .developer{
+        font-size: 16px;
+        text-align: right;
+    }
+}
+/* 1280 x 800 */
+@media only screen and (max-width: 1280px){
+    .mainContainer{
+        padding-left: 75px;
+    }
+    .Myportfolio{
+        font-size: 138px;
+        letter-spacing: 0.14em;  
+        padding: 18px 0px;    
+    }
+}
+/* 1110 x 800 */
+@media only screen and (max-width: 1110px){
+    .mainContainer{
+        padding-left: 70px;
+    }
+    .Myportfolio{
+        font-size: 118px;
+        letter-spacing: 0.13em;  
+        padding: 15px 0px;    
+    }
+}
+/* 940 x 800 */
+@media only screen and (max-width: 940px){
+    .mainContainer{
+        padding-left: 62px;
+    }
+    .Myportfolio{
+        font-size: 100px;
+        letter-spacing: 0.11em;  
+        padding: 12px 0px;    
+    }
+}
+/* 760 x 800 */
+@media only screen and (max-width: 760px){
+    .mainContainer{
+        padding-left: 52px;
+    }
+    .Myportfolio{
+        font-size: 80px;
+        letter-spacing: 0.08em;  
+        padding: 10px 0px;    
+    }
+}
+/*  590px */
+@media only screen and (max-width: 590px){
+    .Myportfolio{
+        font-size: 56px;
+        letter-spacing: 0.05em;   
+        padding: 20px 0px;    
+
+    }
+    .mainContainer{
+        padding-left: 30px;
+    }
+    .year {
+        padding-top: 24px;
+        font-size: 38px;
+    }
+    .fullname{
+        padding: 24px 0px;
+        font-size: 20px;
+    }
+    .surname{
+        font-size: 38px;
+    }
+    .developer{
+        font-size: 16px;
+    }
+    .vector{
+        width: 60px;
+    }
+}
