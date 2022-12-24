@@ -1,0 +1,66 @@
+/* first page - Welcome my portfolio */
+.body{
+    width: 1920px;
+    height: 1080px;
+    background-color: rgb(169, 193, 193);
+}
+.mainContainer{
+    padding-left: 100px;
+}
+.line01{
+    width: 3px;
+    height: 250px;
+    background-color: #4F4F4F;
+}
+.line02{
+    width: 3px;
+    height: 200px;
+    background-color: #4F4F4F;
+}
+.line03{
+    width: 3px;
+    height: 70px;
+    background-color: #4F4F4F;
+}
+.line04 {
+    width: 3px;
+    height: 200px;
+    background-color: #4F4F4F;
+    margin: 70px 0px;
+}
+.year {
+    padding-top: 38px;
+    font-family: Raleway;
+    font-size: 48px;
+    color: #4F4F4F;
+}
+.Myportfolio{
+    font-weight: 700;
+    font-size: 200px;
+    letter-spacing: 0.2em;
+    color: #4F4F4F;
+    padding: 30px 0px;    
+}
+.fullname{
+    padding: 30px 0px;
+    letter-spacing: 0.1em;
+
+    color: #4F4F4F;
+    font-size: 25px;
+}
+.surname{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+/* .welcomeImg{
+    padding-top: 30px;
+    display: block;
+} */
+.developer{
+    font-size: 20px;
+    text-align: right;
+}
+.vector img{
+    padding-top: 20px;
+}
