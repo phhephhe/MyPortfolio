@@ -75,6 +75,16 @@
         font-size: 16px;
         text-align: right;
     }
+    /* first project */
+    .right-photo a img{
+        width: 500px;
+    }
+    .left-description {
+        width: 600px;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.06em;   
+    }
 }
 /* 1280 x 800 */
 @media only screen and (max-width: 1280px){
@@ -97,6 +107,19 @@
         letter-spacing: 0.13em;  
         padding: 15px 0px;    
     }
+    /* first project */
+    .left-description {
+       width:100%;       
+    }
+    
+    .project-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .right-photo a img{
+        width: 400px;
+    }
+
 }
 /* 940 x 800 */
 @media only screen and (max-width: 940px){
@@ -108,10 +131,13 @@
         letter-spacing: 0.11em;  
         padding: 12px 0px;    
     }
-    /* aboutme  */
-    .aboutme{ 
-        font-size: 60px;
-       
+    /* aboutme, projects  */
+    .aboutme, .projects{ 
+        font-size: 60px;       
+    }
+    /* first project */
+    .right-photo a img{
+        display: none;
     }
 }
 /* 760 x 800 */
@@ -131,7 +157,6 @@
         font-size: 56px;
         letter-spacing: 0.05em;   
         padding: 20px 0px;    
-
     }
     .mainContainer{
         padding-left: 30px;
@@ -152,5 +177,17 @@
     }
     .vector{
         width: 60px;
+    }
+    /* first project */
+    .left-description {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .project-container{
+        padding-bottom: 0px;
+    }
+    /* second project */
+    .chess-figure {
+        width: 160px;
     }
 }
