@@ -1,8 +1,6 @@
 /* first page - Welcome my portfolio */
-.body{
-    width: 1920px;
-    height: 1080px;
-    background-color: rgb(169, 193, 193);
+body{
+    color: #4F4F4F;
 }
 .mainContainer{
     padding-left: 100px;
@@ -39,25 +37,25 @@
 .number {
     padding-bottom: 15px;
     font-size: 34px;
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
 }
 .year {
     padding-top: 38px;
     font-family: Raleway;
     font-size: 48px;
-    color: #4F4F4F;
+    
 }
 .Myportfolio{
     font-weight: 700;
     font-size: 200px;
     letter-spacing: 0.2em;
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
     padding: 30px 0px;    
 }
 .fullname{
     padding: 30px 0px;
     letter-spacing: 0.1em;
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
     font-size: 25px;
 }
 .surname{
@@ -83,7 +81,7 @@
     font-size: 85px;
     letter-spacing: 0.05em;
     padding-bottom: 20px;
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
     font-weight: 700;
 }
 .self-description{
@@ -92,15 +90,29 @@
     font-size: 24px;
     letter-spacing: 0.07em;
     line-height: 30px;
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
     padding: 0px 20px 15px 0px;
+}
+/* skills */
+
+.skills{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-left: 3px solid #4F4F4F;
+}
+.test {
+    /* width: 300px;  */
 }
 /* projects */
 .github img{
     width: 35px;
 }
 .projects {
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
     font-size: 85px;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -112,7 +124,7 @@
 }
 .project-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 50px 10px;
     width: 100%;
     gap: 100px;
