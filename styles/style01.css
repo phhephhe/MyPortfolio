@@ -121,11 +121,11 @@
     left: 50%;
     transform: translate(-50%, -50%);;
 }
-.left-description, .right-photo{
+/* .left-description, .right-photo{
     width: 50%;
-}
+} */
 .left-description {
-    width: 750px;
+    width: 600px;
     font-size: 24px;
     line-height: 34px;
     color: #4F4F4F;
@@ -133,8 +133,23 @@
 }
 .right-photo a img{
     width: 600px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
+.right-photo a img:hover {
+    scale: 1.03;
+    box-shadow: 15px 15px 15px black;
 }
 /* project 2 */
 .chess-figure{
-    width: 250px;
+    width: 600px;
+    height: 400px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
+.chess-figure:hover {
+    scale: 1.03;
+    box-shadow: 15px 15px 15px black;
 }

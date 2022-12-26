@@ -76,8 +76,9 @@
         text-align: right;
     }
     /* first project */
-    .right-photo a img{
+    .right-photo a img, .chess-figure{
         width: 500px;
+        height: auto;
     }
     .left-description {
         width: 600px;
@@ -107,17 +108,14 @@
         letter-spacing: 0.13em;  
         padding: 15px 0px;    
     }
-    /* first project */
-    .left-description {
-       width:100%;       
-    }
-    
+        
     .project-container {
         flex-direction: column;
         gap: 10px;
     }
-    .right-photo a img{
+    .right-photo a img, .chess-figure{
         width: 400px;
+
     }
 
 }
@@ -136,7 +134,7 @@
         font-size: 60px;       
     }
     /* first project */
-    .right-photo a img{
+    .right-photo a img, .chess-figure{
         display: none;
     }
 }
@@ -149,6 +147,10 @@
         font-size: 80px;
         letter-spacing: 0.08em;  
         padding: 10px 0px;    
+    }
+    /* first project */
+    .left-description {
+       width:100%;       
     }
 }
 /*  590px  iPhone 12*/
