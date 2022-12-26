@@ -104,9 +104,7 @@ body{
     gap: 15px;
     border-left: 3px solid #4F4F4F;
 }
-.test {
-    /* width: 300px;  */
-}
+
 /* projects */
 .github img{
     width: 35px;
@@ -140,10 +138,10 @@ body{
     width: 600px;
     font-size: 24px;
     line-height: 34px;
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
     letter-spacing: 0.1em;   
 }
-.right-photo a img{
+/* .right-photo a img{
     width: 600px;
     border-radius: 12px;
     box-shadow: 10px 10px 10px #4F4F4F;
@@ -152,11 +150,11 @@ body{
 .right-photo a img:hover {
     scale: 1.03;
     box-shadow: 15px 15px 15px #4F4F4F;
-}
+} */
 /* project 2 */
 .chess-figure{
     width: 600px;
-    height: 400px;
+    /* height: 400px; */
     border-radius: 12px;
     box-shadow: 10px 10px 10px #4F4F4F;
     transition: 0.5s;
