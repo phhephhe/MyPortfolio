@@ -1,6 +1,14 @@
 /* first page - Welcome my portfolio */
 body{
+    background-color: white;
     color: #4F4F4F;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.light-icon{
+    width: 40px;
 }
 .mainContainer{
     padding-left: 100px;

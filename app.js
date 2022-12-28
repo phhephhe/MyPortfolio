@@ -1,16 +1,9 @@
 let lightMode = document.getElementById('lightMode');
 let body = document.querySelector('body');
-let btn = document.getElementById('light');
-
-btn.addEventListener('click', (el) =>{
-    el.preventDefault()
-    if(lightMode.content == "light"){
-        lightMode.content = "dark";
-        btn.innerHTML = "Day"
-        body.style.color = 'white'
-    }else{
-        lightMode.content = "light"
-        btn.innerHTML = "Night"   
-        body.style.color = '#4F4F4F'
-    }
+let img = document.getElementById('light');
+console.log(img.src)
+img.addEventListener('click', function (){
+    console.log(this.src)
+        body.classList.toggle('dark-mode')
+        img.classList.toggle('')
 })
