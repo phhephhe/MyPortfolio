@@ -1,5 +1,5 @@
 let lightMode = document.getElementById('lightMode');
-let body = document.getElementsByTagName("BODY")[0];
+let body = document.querySelector('body');
 let btn = document.getElementById('light');
 
 btn.addEventListener('click', (el) =>{

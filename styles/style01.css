@@ -167,3 +167,22 @@ body{
     scale: 1.03;
     box-shadow: 15px 15px 15px #4F4F4F;
 }
+/* social icons */
+.social-icons {
+    /* width: 50px; */
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.social-icons img {
+    cursor: pointer;
+    display: block;
+    width: 45px;
+    margin: 0 4px 20px;
+    transition: 0.5s;
+}
+.social-icons img:hover{
+    scale: 1.1;
+}

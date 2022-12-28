@@ -200,4 +200,9 @@
     .chess-figure {
         width: 160px;
     }
+    .social-icons img {
+        width: 25px;
+        margin: 0 2px 14px;
+
+    }
 }
