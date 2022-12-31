@@ -8,6 +8,9 @@ body{
     color: white;
 }
 .light-icon{
+    cursor: pointer;
+    position: fixed;
+    margin: 8px;
     width: 40px;
 }
 .mainContainer{

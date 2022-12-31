@@ -1,9 +1,14 @@
 let lightMode = document.getElementById('lightMode');
 let body = document.querySelector('body');
-let img = document.getElementById('light');
-console.log(img.src)
-img.addEventListener('click', function (){
-    console.log(this.src)
+let night = document.getElementById('night');
+let day = document.getElementById('day')
+night.addEventListener('click', () =>{
         body.classList.toggle('dark-mode')
-        img.classList.toggle('')
+        night.style.display = 'none'
+        day.style.display = 'block'
+})
+day.addEventListener('click', ()=> {
+    body.classList.toggle('dark-mode')
+    day.style.display = 'none'
+    night.style.display = 'block'
 })
